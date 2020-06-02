@@ -1,1 +1,1 @@
-# WVW_EEG_Experiment
+RSVP Experiment Script
