@@ -31,7 +31,7 @@ class Setup:
         self.win = None
         self.text = None
 
-        self.dlg_dict = None  # rename this to something that makes sense
+        self.dlg_dict = None
         self.dlg = None
 
         self.kb = None
@@ -43,7 +43,7 @@ class Setup:
     def set_specs(self):
         #  Name monitor and EEG cabin
         self.monitor = 'CABIN1'
-        self.EEG = 1  # Uncomment if sending triggers
+        self.EEG = 1
 
         if self.debug:
             self.monitor = "EM"

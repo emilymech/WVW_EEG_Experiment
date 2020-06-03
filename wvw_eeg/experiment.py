@@ -39,6 +39,7 @@ class Experiment(Stimuli):
         self.wait_for_space()
 
     def show_seq(self):
+        self.times = [10 * self.ms100]
         assert len(self.words) == len(self.times)
         current_thr = 0
         self.current_item = -1
